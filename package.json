@@ -1,0 +1,21 @@
+{
+  "name": "txst-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "txst-assign.js",
+  "scripts": {
+    "start": "node txst-assign.js",
+    "test": "NODE_ENV=test jest --watchAll"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
